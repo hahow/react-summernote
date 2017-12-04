@@ -9895,14 +9895,14 @@ if (process.env.NODE_ENV !== 'production') {
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
- * Super simple wysiwyg editor v0.8.8
+ * Super simple wysiwyg editor v0.8.9
  * http://summernote.org/
  *
  * summernote.js
  * Copyright 2013- Alan Hong. and other contributors
  * summernote may be freely distributed under the MIT license./
  *
- * Date: 2017-09-09T11:03Z
+ * Date: 2017-12-04T09:07Z
  */
 (function (factory) {
   /* global define */
@@ -14307,6 +14307,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
       }).on('focus', function (event) {
         context.triggerEvent('focus', event);
       }).on('blur', function (event) {
+        context.invoke('editor.saveRange');
         context.triggerEvent('blur', event);
       }).on('mousedown', function (event) {
         context.triggerEvent('mousedown', event);
@@ -17285,7 +17286,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
       var body = [
         '<p class="text-center">',
-        '<a href="http://summernote.org/" target="_blank">Summernote 0.8.8</a> · ',
+        '<a href="http://summernote.org/" target="_blank">Summernote 0.8.9</a> · ',
         '<a href="https://github.com/summernote/summernote" target="_blank">Project</a> · ',
         '<a href="https://github.com/summernote/summernote/issues" target="_blank">Issues</a>',
         '</p>'
@@ -17633,7 +17634,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
   $.summernote = $.extend($.summernote, {
-    version: '0.8.8',
+    version: '0.8.9',
     ui: ui,
     dom: dom,
 

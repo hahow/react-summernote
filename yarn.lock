@@ -3606,15 +3606,15 @@ style-loader@^0.18.1:
     loader-utils "^1.0.2"
     schema-utils "^0.3.0"
 
-"summernote@https://github.com/jiminycricket/summernote.git#0.8.10":
-  version "0.8.10"
-  resolved "https://github.com/jiminycricket/summernote.git#514e8199a48d55debabcfbfabf3c0f7693bb07c7"
+"summernote@https://github.com/jiminycricket/summernote.git#0.8.12":
+  version "0.8.12"
+  resolved "https://github.com/jiminycricket/summernote.git#f18c54e0feafd8c0c0aaf03486f9add0014244d1"
   dependencies:
     bootstrap "^3.3.7"
 
-"summernote@https://github.com/jiminycricket/summernote.git#0.8.9":
-  version "0.8.9"
-  resolved "https://github.com/jiminycricket/summernote.git#ff583153446b734f467d39f4926d29c070134bc5"
+"summernote@https://github.com/jiminycricket/summernote.git#0.8.13":
+  version "0.8.13"
+  resolved "https://github.com/jiminycricket/summernote.git#0e50e0d0f70ac6e782facd5b0bcd33136572a7c8"
   dependencies:
     bootstrap "^3.3.7"
 
